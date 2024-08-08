@@ -2,5 +2,12 @@
 
 // setting
 @import "base/reset";
+@import "base/layout";
+@import "base/common";
+@import "base/fonts";
+@import "base/mixin";
+@import "base/vars";
 
 // section
+@import "layout/header";
+@import "layout/banner";

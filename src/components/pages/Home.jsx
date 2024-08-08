@@ -1,23 +1,15 @@
 import React from "react";
+import Main from "../section/Main";
+
+import Intro from "../contents/Intro";
+import About from "../contents/About";
 
 const Home = () => {
   return (
-    <section id="intro">
-      <div className="grid">
-        <div className="item">
-          <a href="#intro">🚄</a>
-        </div>
-        <div className="item">
-          <a href="#port">🚄</a>
-        </div>
-        <div className="item">
-          <a href="#port">🚄</a>
-        </div>
-        <div className="item">
-          <a href="#contact">🚄</a>
-        </div>
-      </div>
-    </section>
+    <Main title="1234" description="가나다라">
+      <Intro />
+      <About />
+    </Main>
   );
 };
 
